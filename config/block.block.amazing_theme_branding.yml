@@ -1,0 +1,25 @@
+uuid: 05811fe4-c5a0-4d5c-8d43-6a66129ea6cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - amazing_theme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: amazing_theme_branding
+theme: amazing_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
